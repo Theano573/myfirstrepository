@@ -4,6 +4,9 @@
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="css/styles.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> 
 
         <title>ΕΙΔΗ υποΕΞΑΦΑΝΙΣΗ</title>
 
@@ -11,8 +14,80 @@
 
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">ΕυΕ</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="file:///Users/theanosoldatou/Desktop/myfirstrepository/index.html#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.wwf.gr/">WWF</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Learn about
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="https://www.wwf.gr/endangered-species/panda">Πάντα</a>
+                    <a class="dropdown-item" href="https://www.wwf.gr/endangered-species/caretta">Χελώνες</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://www.nationalgeographic.com/animals/birds/b/bald-eagle/">Αετοί</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html" >Contact us</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Type" aria-label="Search">
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
 
-    <h1>ΕΙΔΗ υποΕΞΑΦΑΝΙΣΗ</h1>
+        <div class="container">
+            <div class="row row-4">
+                <div class="col">
+                <h1 style="text-align:center; color:white;">ΕΙΔΗ υποΕΞΑΦΑΝΙΣΗ</h1>
+
+        </div>
+            </div>
+                </div>
+                
+                <br>
+
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="panda_carousel.jpg" class="d-block w-100" alt="Pandas" length="400">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="turtle_carousel.jpg" class="d-block w-100" alt="turtle" length="400">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="eagle_carousel.jpg" class="d-block w-100" alt="eagle" length="400">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+
+                  <br>
+
+    <h2 style="text-align:center;">Τα γιγάντια πάντα</h2>
+
+                  <br>
 
         <div class="container">
             <div class="row row-1">
@@ -21,31 +96,53 @@
                 </div>
                 <div class="col-8">
                     <p>Tα γιγάντια Πάντα, που κατοικούν στην κεντροδυτική και νοτιοδυτική Κίνα. Ζούνε 20 χρόνια και αν και κατατάσσονται στην τάξη των Σαρκοφάγων τρέφεται κατά 99% με μπαμπού. Ανακύρηχθηκαν είδη υπό εξαφάνιση από το 1990. Όλα ξεκίνησαν με την κοπή των δέντρων Μπαμπού, που τα ανάγκασε να μεταναστεύουν μέσα στο δάσος όλο και περισσότερο. Στην συνέχεια, η κατασκευή δρόμων και η γενική εξαφάνιση του βιοτόπου τους, τα δυσκόλεψε στην προσαρμογή ρίχνοντας τον πληθυσμό τους στα 1.864 παγκοσμίως.</p>
+                    <a class="btn btn-outline-light" href="https://donate.wwf.gr/yiothetise/panta" role="button">Βοηθήστε τα πάντα</a>
+                   
                 </div>
             </div>
 
         </div>
 
-        <h2>Τα γιγάντια Πάντα</h2>
-            
-            <p style="float:left;clear:right"><img src="panda.jpg" alt="image of a panda" width="300"></p>
-           
-            
-    
+        <br>
 
-        <h2>Η χελώνα καρέτα-καρέτα</h2>
+        <h2 style="text-align:center;">Η χελώνα καρέτα-καρέτα</h2>
 
-        <p style="float:right;clear:left"><img src="KARETA.original.jpg" alt="image of a turtle" width="300"></p>
-        <p>Η Καρέτα Καρέτα βρίσκεται κυρίως στην Μεσόγειο και
-            το 2001 το είδος τους κηρύχθηκε υπό εξαφάνιση. Η χελώνα αυτή βρίσκεται υπό εξαφάνιση κυρίως καθώς 1 στα 1000 μικρά χελωνάκια φτάνει στην ενηλικίωση. Πιο συγκεκριμένα: τα νεογέννητα χελωνάκια αποπροσανατολίζονται από τα φώτα του δρόμου και δεν φτάνουν στην θάλασσα αφού δεν λαμβάνουν καθοδήγηση από την μητέρα τους και έτσι μόνο μικρό μέρος των νεογέννητων φτάνει στην θάλασσα. Παράλληλα, πουλιά και άλλα ζώα επιτίθενται σε φωλιές ενώ στο νερό, μεγαλύτερα ψάρια Επίσης, το μέρος με τις περισσότερες χελώνες καρέτα καρέτα στον κόσμο, η Ζάκυνθος, υπέστη φυσική καταστροφή το 1999. Μάλιστα, πιο πρόσφατες μελέτες εξηγούν πως η θερμοκρασία του περιβάλλοντος στο οποίο βρίσκονται τα αυγά τους καθορίζει το  φύλο τους: άρα λόγω της κλιματικής αλλαγή υπάρχει η ανησυχία ότι δεν θα υπάρχουν αρκετά του ενός φύλου για αναπαραγωγή.</p>
+        <br>
+
+        <div class="container">
+            <div class="row row-2">
+                <div class="col-4">
+                    <img src="KARETA.original.jpg" alt="image of a turtle" width="300">
+                </div>
+                <div class="col-8">
+                    <p>Η Καρέτα Καρέτα βρίσκεται κυρίως στην Μεσόγειο και το 2001 το είδος τους κηρύχθηκε υπό εξαφάνιση. Η χελώνα αυτή βρίσκεται υπό εξαφάνιση διότι τα νεογέννητα χελωνάκια αποπροσανατολίζονται από τα φώτα του δρόμου και δεν φτάνουν στην θάλασσα. Παράλληλα, ζώα μπορεί να τους επιτεθούν. Μάλιστα, η θερμοκρασία του περιβάλλοντος στο οποίο βρίσκονται τα αυγά τους καθορίζει το  φύλο τους: άρα λόγω της κλιματικής αλλαγή υπάρχει η ανησυχία ότι δεν θα υπάρχουν αρκετά του ενός φύλου για αναπαραγωγή.</p>
+                    <a class="btn btn-outline-light" href="https://donate.wwf.gr/yiothetise/kareta" role="button">Βοηθήστε τις χελώνες</a>   
+                </div>
+            </div>
+
+        </div>
 
 
+        <br>
 
-    <h2>Ο λευκοκέφαλος αετος</h2>
+    <h2 style="text-align:center;">Ο λευκοκέφαλος αετος</h2>
 
+        <br>
 
-        <p style="float:left;clear:right"><img src="bald_eagle .jpg" alt="image of an eagle" width="300"></p>
-        <p>Ο Λευκοκέφαλος Αετός βρίσκεται κυρίως στην Βόρεια Αμερική (ΗΠΑ, Καναδάς, Αλάσκα, Βόρειο Μεξικό). Το 1967 το είδος τους κηρύχθηκε υπό εξαφάνιση καθώς από τις 100,000 φωλιές που μετρήθηκαν όταν ο αετός ονομάστηκε το επίσημο σύνολο των ΗΠΑ, το 1967 είχαν διατηρηθεί μόνο 471. Η κυβέρνηση υποψιάζεται πως η ραγδαία αυτή μείωση των αετών οφείλεται στο παράνομο κυνήγι και εμπόριο.</p> 
+    <div class="container">
+        <div class="row row-3">
+            <div class="col-4">
+                <img src="bald_eagle .jpg" alt="image of an eagle" width="300">
+            </div>
+            <div class="col-8">
+                <p>Ο Λευκοκέφαλος Αετός βρίσκεται κυρίως στην Βόρεια Αμερική (ΗΠΑ, Καναδάς, Αλάσκα, Βόρειο Μεξικό). Το 1967 το είδος τους κηρύχθηκε υπό εξαφάνιση καθώς από τις 100,000 φωλιές που μετρήθηκαν όταν ο αετός ονομάστηκε το επίσημο σύνολο των ΗΠΑ, το 1967 είχαν διατηρηθεί μόνο 471. Η κυβέρνηση υποψιάζεται πως η ραγδαία αυτή μείωση των αετών οφείλεται στο παράνομο κυνήγι και εμπόριο.</p> 
+                <a class="btn btn-outline-light" href="https://gifts.worldwildlife.org/gift-center/gifts/species-adoptions/eagle.aspx" role="button">Βοηθήστε τους αετούς</a>
+
+            </div>
+        </div>
+
+    </div>
+       
         
     </body>
 </html>
