@@ -1,19 +1,26 @@
-.row-1{ background-color:#52b788
+.row-1{ background-color:#52b788;
 }
 
 .row-2{
-    background-color:#48BFE3
+    background-color:#48BFE3;
 }
 
 .row-3{
-    background-color:#F4A261
+    background-color:#F4A261;
 }
 
 body{
-    background-color:#E6E8E6
+    background-color:#E6E8E6;
 }
 
 .row-4{
-    background-color:black
+    background-color:black;
 }
 
+.my-form{
+    padding:0px 40px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
